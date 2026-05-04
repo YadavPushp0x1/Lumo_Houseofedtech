@@ -84,6 +84,4 @@ None required. API base is hardcoded in `lib/config.ts`.
 - Refresh-token endpoint availability can vary; if refresh fails, the app signs out and prompts re-login.
 - Course “progress” is a simple persisted percentage incremented when opening the WebView.
 
-## Screenshots / Demo Video
 
-Add screenshots and a short walkthrough video (3–5 minutes) here.
