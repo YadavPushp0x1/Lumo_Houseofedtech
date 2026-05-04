@@ -1,0 +1,15 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/jest.config.js",
+  "configurations": {
+    "ios.sim.debug": {
+      "type": "ios.simulator",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/lumo.app",
+      "build": "xcodebuild -workspace ios/lumo.xcworkspace -scheme lumo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "device": {
+        "type": "iPhone 15"
+      }
+    }
+  }
+}
+
